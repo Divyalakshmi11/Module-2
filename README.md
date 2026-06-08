@@ -20,3 +20,4 @@ print("Binary representation of",a, "is",b)
 
 ## Result
 The program successfully converts the number 16 into its binary representation using the built-in bin() function.
+
