@@ -44,6 +44,31 @@ y = int(input("Enter the second number: "))
 result(x, y)
 ~~~
 
+# Lambda Function in Python: Addition of Two Numbers
+
+## 🎯 Aim
+To write a Python program that defines a **lambda function** which takes two arguments `a` and `b`, and returns their sum.
+
+## 🧠 Algorithm
+1. Get two integer inputs from the user.
+2. Use a **lambda function** to define a function `f` that returns `a + b`.
+3. Call the function with the user inputs and print the result.
+
+## 🧾 Program
+~~~
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+f = lambda a, b: a + b
+print("The sum is:", f(a, b))
+~~~
+
+## Output
+<img width="1600" height="987" alt="Screenshot 2025-10-20 132314" src="https://github.com/user-attachments/assets/8e41c429-eb10-4c89-aedc-a48b41f6df62" />
+
+## Result
+The program successfully defines and executes a lambda function that adds two numbers and displays the result.
+
 ## Output
 <img width="1554" height="993" alt="Screenshot 2025-10-20 131953" src="https://github.com/user-attachments/assets/6ed7d7d7-5fb0-42c6-a80e-85bd24d25a59" />
 
